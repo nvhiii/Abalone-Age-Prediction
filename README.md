@@ -35,11 +35,11 @@ The regression model consists of:
 
 ### **1. Data Preprocessing**
 
-![Dataset Loading and Preprocessing](./screenshots/data_loading.png)
+![Dataset Loading and Preprocessing](/screenshots/data_loading.png)
 
 ### **2. Training Loss per Epoch**
 
-![Training per Epoch](./screenshots/training_per_epoch.png)
+![Training per Epoch](/screenshots/training_per_epoch.png)
 
 ### **Main Model Training Code**
 
