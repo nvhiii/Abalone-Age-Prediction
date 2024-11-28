@@ -28,7 +28,7 @@ def load_data(file_path = "./data/abalone.data"):
     X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
 
     # pt tensors
-    train_dataset = TensorDataset(torch.tensor(X_train, dype = torch.float32), torch.tensor(y_train.values, dtype=torch.float32))
+    train_dataset = TensorDataset(torch.tensor(X_train, dtype = torch.float32), torch.tensor(y_train.values, dtype=torch.float32))
     val_dataset = TensorDataset(torch.tensor(X_val, dtype=torch.float32), torch.tensor(y_val.values, dtype=torch.float32))
     test_dataset = TensorDataset(torch.tensor(X_test, dtype=torch.float32), torch.tensor(y_test.values, dtype=torch.float32))
 
